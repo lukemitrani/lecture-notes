@@ -1,0 +1,49 @@
+/*! Media Query Build */
+
+/* 
+    -common units of measurement:
+    -percenteges %
+    -viewport Width: Vw
+    -Root element font size: rem
+    -parent-font-size: em
+
+    Using Media Queries
+        ex: 
+            @media screen { <-- target screens only
+
+                div {
+                    backround-color: blue 
+
+
+
+*/
+
+
+
+@media (max-width: 420px) {
+    
+backround-color: red;
+
+
+
+}
+
+
+.item-desc {
+    width: 100vw;
+}
+
+
+.desc {
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.desc > p {
+    padding: 1rem 3rem;
+}
+
+
+
+

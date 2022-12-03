@@ -1,0 +1,35 @@
+header {
+    
+    display: inline-block;
+    text-align:right;
+    margin: auto;
+    padding: 100px;
+    font-size: 50px;
+    font-family: fantasy;
+    margin: auto;
+
+}
+
+
+
+
+
+a {
+    background-color: brown;
+    border: none;
+    color:white;
+    padding:50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+body {
+    background-color: hwb(8 51% 40% / 0.365);
+
+
+
+}
+
+

@@ -1,0 +1,48 @@
+h1 {
+
+    background-color: lightgray;
+    padding-left: 400px;
+    padding-top: 50px;
+    border: 1px solid black;
+    margin-left: 75px;
+    margin-right: 75px;
+    
+    
+    
+}
+
+.float {
+    border: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: lightgray;
+    
+}
+
+
+
+.float img {
+    float: right; 
+ ; 
+}
+
+
+.float2  {
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-color: lightgray;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
+
+.float2 img {
+float: left;
+
+}

@@ -1,0 +1,93 @@
+
+
+nav {
+/* We are targetingg the Element */
+background-color: #a7a9a9;
+overflow: hidden;
+
+
+/* present colors: red, blue, yellow etc.
+
+Rgb & Rba:  (red, green, blue, alpha)
+-alpha determines transperecy
+- ex rgb: (200, 15, 100, .15);
+
+Hexidecimal
+- 16 digits: 0-9, A-F
+- ex: #d2d2d2
+
+Cascading Style Sheet
+Order of "Final Respnse" Hiearchy
+- !important
+- Inline CSS
+- ID Selectors 
+- Class Selectors
+- Element
+*/
+
+overflow: scroll;
+}
+
+/* TARGETING A CLASS */
+
+.btn {
+    /* float lets you move it around */
+    float: right; 
+    color: black;
+    text-align: center;
+    padding: 14 px 16px;
+    width: 85px;
+    text-decoration:none;
+    font-size: 20px;
+    
+
+}
+
+/* TARGETING AN ID */
+#home {
+
+    float: left;
+    color: red;
+    
+}
+
+/* 
+Compund Operators:
+    > Refers to direct children of an element
+    , Matching selector
+    + Immediate Sibling of an elemnt.
+    ~ Subsequent sibling on an element.
+*/
+
+nav .btn {
+
+    text-shadow: 2px 2px 2px rgb(32, 31, 31);
+}
+/* 
+Points to the Nav and ANY class within it, or children of, "btn"
+*/
+
+
+div .paragraph > p {
+    color: rgb(43, 0, 255);
+}
+/* Targeting any Div with a class */
+
+.paragraph + div {
+    color: #008000;
+}
+
+
+a:hover {
+    color: rgb(19, 132, 25)
+
+}
+/* Mousing over anchor tag will alter its color "home" doesnt change  */
+
+a:active {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+
+    /* When you click the color changes to white */
+
+}

@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 3em;
+    background-color: lightblue;
+    
+}
+
+nav ul li {
+    
+    list-style: none;
+    display: inline;
+    margin: 0 2em;
+    float: left;
+}
+
+nav ul li:first-child {
+    float: right;
+    /* targets first child */
+}
+
+nav ul li:nth-child(1) {
+    float :right;
+    /* targets any child,including first */
+}
+
+#cart {
+float: right;
+}
+/* Targets ID */

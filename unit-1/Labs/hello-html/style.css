@@ -1,0 +1,71 @@
+header {
+    position:relative;
+    top:10px;    
+    left:200px;   
+
+
+    display: inline-block;
+    font-size: 60px;
+    font-family: fantasy;
+    padding:50px;
+
+}
+
+nav {
+    
+    position:relative;
+    top:10px;    
+    left:400px;  
+
+    color: black;
+    text-decoration:none;
+    font-size: 20px;
+    
+}   
+
+
+main {
+
+    position:relative;
+    top:10px;    
+    left:200px;  
+    padding-right: 100px;
+    margin-right: 50px;
+
+}
+
+.lorem {
+    text-decoration: nones;
+    text-decoration-color: rgb(47, 145, 232);
+    color: browns;
+    padding: 25px;
+
+}
+
+
+
+
+body {
+    background-color: hwb(8 51% 40% / 0.365);
+
+
+
+}
+
+h1 {
+
+    position:relative;
+    top:10px;    
+    left:430px;   
+
+
+}
+
+h2 {
+
+    position:relative;
+    top:10px;    
+    left:-30px;  
+
+
+}

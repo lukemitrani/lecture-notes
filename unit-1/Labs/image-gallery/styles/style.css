@@ -1,0 +1,47 @@
+* {
+
+    margin:1%;
+    padding: 1%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+#Nike {
+    background-color: lightgray;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+    
+    
+
+} 
+
+.grid a {
+
+    display: inline;
+    position: relative;
+    left: 400px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

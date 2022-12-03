@@ -1,0 +1,105 @@
+body {
+
+    background-color: lightgrey;
+}
+
+.sample {
+    height: 50px;
+    background-color: orange;
+    margin: 10px;
+
+
+}
+
+
+#block-sample {
+display: inline;
+
+}
+
+#inline-sample {
+
+    display: none;
+
+}
+
+#none-sample {
+    display: none;
+
+}
+
+.block-elements > * {
+    border: 1px solid blue;
+
+}
+
+.inline-elements > * {
+    border:  1px dashed red;
+
+
+}
+
+.relative-sample {
+
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: green;
+
+
+}
+
+#absolute-sample {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background-color: rgb(17, 5, 95);
+
+}
+
+#fixed-sample {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    left: 100px;
+    background-color: rgb(255, 34, 34);
+
+
+
+}
+
+#static-sample {
+    height: 50px;
+    width: 50px;
+    position: static;
+    top: 20px;
+    left: 100px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+    #static-sample {
+        height: 50px;
+        width: 50px;
+        position: static;
+        top: 20px;
+        left: 100px;
+        background-color: rgb(0, 0, 0);
+
+    }
+
+
+    #for-spacing {
+        height: 100vh;
+
+
+
+    }
+
+
+

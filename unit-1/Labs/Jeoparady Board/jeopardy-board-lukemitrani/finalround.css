@@ -1,0 +1,136 @@
+
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+
+
+}
+
+h1 {
+    margin-top: 1em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(255, 237, 213);
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-weight: bolder;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 1%;
+    background-color: rgb(255, 237, 213);
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    background-color: antiquewhite;
+    border: solid black 1px;
+    width: 100%;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border: 1px solid black;
+
+    
+    
+
+    ;
+
+}
+
+span a {
+    background-color: antiquewhite;
+
+
+
+
+}
+
+
+
+
+.input {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+#input {
+    background-color: rgb(212, 253, 241);
+    border: 1px solid black;
+
+
+
+}
+
+
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1em;
+
+
+
+
+}
+
+
+
+
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+
+
+
+    background-color: rgb(173, 230, 207);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+
+
+    
+    
+    
+
+    
+}
+
+.footer {
+
+    background-color: rgb(255, 237, 213);
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    
+
+    
+
+}

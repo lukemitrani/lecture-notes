@@ -1,0 +1,119 @@
+
+
+.container {
+    display: grid;
+    height: 90vh;
+    margin: 38px;
+    padding-top: 1%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .7fr 1.5fr 1fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "Nav Nav"
+        "photo photo"
+        "gallery gallery"
+        "footer footer";
+        grid-gap: .2rem;
+        
+
+}
+
+
+header {
+    font-size: 25px;
+    padding-left:23em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightgray;
+    grid-area: header;
+    border: solid black 1px;
+    
+}
+
+#Nav {
+    background-color:lightgray;
+    grid-area: Nav;
+    border: solid black 1px;
+    font-size: 15px;
+    padding-left:37em;
+}
+
+
+#Nav a:nth-child(1) {
+    float: right;
+    
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
+
+    #Nav a:nth-child(2) {
+    position: relative;
+    left: 25em;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+        
+}
+
+
+#Nav a:nth-child(3) {
+    position: relative;
+    left: -39em;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#Nav a:nth-child(4) {
+    position: relative;
+    right: 20em;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#photo {
+    background-color: blueviolet;
+    grid-area: photo;
+    border: solid black 1px;
+    
+    
+}
+
+.gallery img:nth-child(1) {
+border: solid black 1px;
+}
+
+.gallery img:nth-child(2) {
+    border: solid black 1px;
+    float: right;
+}
+
+.gallery img:nth-child(3){
+    border: solid black 1px;
+
+}
+
+.gallery img:nth-child(4) {
+    border: solid black 1px;
+    float: right;
+}
+
+.gallery img:nth-child(5){
+border: solid black 1px;
+}
+
+.gallery img:nth-child(6) {
+    border: solid black 1px;
+    float: right;
+}
+
+footer {
+    background-color: lightgray;
+    border: solid black 1px;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-left:20em;
+}

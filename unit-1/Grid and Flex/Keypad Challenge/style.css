@@ -1,0 +1,20 @@
+#keypad {
+background-color: lightblue;
+border: solid black;
+display: grid;
+grid-column: span 12;
+
+
+}
+
+
+ {
+
+    color: brown;
+    border: solid black;
+    display: grid;
+    grid-column: span 12;
+    
+
+
+}

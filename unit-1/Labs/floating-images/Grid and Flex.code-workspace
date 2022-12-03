@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Grid and Flex"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lecture-notes"
+	}
+}
